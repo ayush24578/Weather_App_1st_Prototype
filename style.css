@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(243, 246, 243);
+}
+
+.card{
+    margin-top: 25px;
+    margin-left: 300px;
+    margin-bottom: 25px;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid black;
+    background-color: rgb(21, 140, 173);
+    color: rgb(235, 230, 230);
+    text-align: center;
+    padding: 20px; 
+}
+
+button img{
+    width: 25px;
+}
+
+.search{
+    margin-left: 250px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #252424;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #d1f7f2; 
+}
+
+.datetime {
+    text-align: center;
+    border: solid black;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(21, 140, 173);
+    color: white;
+    line-height: 1.5; 
+}
+
+#current-day {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 600; 
+    margin: 0;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.weather h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.details{
+    border: solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px;
+    margin-top: 50px;
+}
+
+.col img{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 40px;
+    margin-right: 10px;
+    object-fit: cover; 
+}
+
+.humidity, .wind, .pressure, .windDirection { 
+    font-size: 28px;
+    margin-top: 10px;
+}
